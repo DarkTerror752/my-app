@@ -1,0 +1,164 @@
+#home{
+    display:flex;
+    align-items: center;
+    padding:20px 90px;
+    margin-top:30px;
+    width:100%;
+}
+#name{
+    width:250px;
+    color:white;
+    font-size: 1em;
+    line-height: 1.5em;
+    cursor:default;
+    text-align: left;
+    position:relative;
+}
+#name h1{
+    line-height: 1.5em;;
+}
+
+.about{
+    width:225px;
+    height:40px;
+    background-color:#F98836 ;
+    border-radius: 10px;
+    outline: none;
+    border:none;
+    cursor:pointer;
+    color:white;
+    font-size:1.4em;
+    font-family: 'Montserrat',sans-serif;
+    text-decoration: none;
+    padding:10px 40px;
+}
+.about:hover{
+
+    animation:about 1.3s infinite;
+    
+}
+
+@keyframes about {
+    0%{
+        transform: translateY(0);
+        color:white;
+    }
+    25%{
+        transform: translateY(-5px);
+        color:white;
+        box-shadow: 0 0 0 2px rgba(249, 136, 54, 0.75);
+    }
+    50%{
+        transform: translateY(-5px);
+        color:white;
+        box-shadow: 0 0 0 5px rgba(249, 136, 54, 0.5);
+    }
+    75%{
+        box-shadow: 0 0 0 7px rgba(249, 136, 54, 0.25);
+        color:white;
+        transform: translateY(-3px);
+    }
+    100%{
+        box-shadow: 0 0 0 10px rgba(249, 136, 54, 0);
+        color:white;
+        transform: translateY(0px);
+    }
+}
+#container{
+    top:35px;
+    width:420px;
+    height:420px;
+    display:flex;
+    right: 0;
+    position:relative;
+    left:550px;
+    align-items:center;
+    justify-content: center;
+    border-radius:50%;
+    background-image: linear-gradient(180deg, rgba(26, 26, 26,1) 15.73%, rgba(249, 136, 54, 0.7) 100%);
+
+}
+#photo{
+    width:400px;
+    opacity:1;
+    height:400px;
+    border-radius:50%;
+    background-image:  linear-gradient(180deg, rgba(26, 26, 26, 1) 55.73%, rgba(249, 136, 54, 0.7) 100%);
+
+}
+#photo img{
+    width:100%;
+    border-radius:50%;
+    height:100%;
+}
+#ui{
+    display:flex;
+    width:75px !important;
+    height:75px !important;
+    padding:3px  !important;
+    font-size:1.2em;
+    position:absolute;
+    
+    top:90px;
+    left:800px;
+}
+#ui svg{
+    position:absolute;
+    left:50px;
+    top:40px;
+}
+#js{
+    position:absolute;
+    top:250px;
+    left:708px;
+}
+#js svg{
+    position:absolute;
+    left:12px;
+    top:40px;
+}
+#react{
+    top:470px;
+    padding:10px  !important;
+    font-size:1.2em;
+    left:750px;
+    position:absolute !important;
+}
+
+#react svg{
+    position:absolute;
+    left:73px;
+    top:-65px;
+}
+#html{
+    position:absolute;
+    left:1000px;
+    top:580px;
+}
+#html svg{
+    position:absolute;
+    top:-80px;
+    left:30px;
+}
+#css{
+    position:absolute;
+    left:1200px;
+    top:583px;
+}
+#css svg{
+    position:absolute;
+    top:-95px;
+    left:-25px;  
+}
+#front{
+    position:absolute;
+    left:1355px;
+    width:75px !important;
+    height: 75px !important;
+    
+}
+#front svg{
+    position:absolute;
+    top:-75px;
+    left:-65px;
+}

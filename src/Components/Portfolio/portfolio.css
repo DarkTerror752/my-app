@@ -1,0 +1,46 @@
+#portfolio{
+    text-align: center;
+    padding-top:75px;
+}
+.project-line{
+    display:flex;
+    max-width: 1920px;
+    margin-left: 150px;
+}
+.project{
+    width:300px;
+    overflow:hidden;
+    float:left;
+    margin:50px;
+    height:300px;
+    opacity:0.4;
+    box-shadow: 0 0 30px 1px rgba(255,255,255,0.4);
+}
+#project1{
+box-shadow:     -40px -40px  rgba(249, 136, 54,.9),
+                0 0 30px 1px rgba(255, 255, 255, 0.4);
+
+}
+#project3{
+    box-shadow:40px -40px rgba(249, 136, 54,.9),
+                0 0 30px 1px rgba(255, 255, 255, 0.4);
+}
+#project4{
+    box-shadow:-40px 40px rgba(249, 136, 54,.9),
+                0 0 30px 1px rgba(255, 255, 255, 0.4); 
+}
+#project6{
+    box-shadow:40px 40px rgba(249, 136, 54,.9),
+                0 0 30px 1px rgba(255, 255, 255, 0.4);
+}
+.project:hover{
+    opacity:0.9;
+    width:320px;
+    height:320px;
+    box-shadow: 0 0 30px 2px rgba(249, 136, 54,0.8) !important;
+    transition:all 0.5s;
+}
+.project img{
+
+    width: 100%;
+}

@@ -1,0 +1,21 @@
+html{
+    margin: 0;
+    padding: 0;
+    background-color:#1A1A1A;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width:7px;
+}
+::-webkit-scrollbar-track{
+    background:#252525;
+}
+::-webkit-scrollbar-thumb{
+    background:#522c12;
+    border-radius: 4px;;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:#F98836;
+}

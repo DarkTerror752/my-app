@@ -1,0 +1,34 @@
+*{
+    color:white;
+
+}
+#about{
+    display: flex;
+}
+#icons-left,#icons-right{
+    display: flex;
+    width: 180px;
+    height:200px;
+    margin-top:250px;
+    margin-left:90px;
+}
+#icons-right{
+    margin-left:130px;
+}
+#text{
+    text-align: center;
+    margin-top:200px;
+    margin-left:210px;
+    width:500px;
+    font-size:1.2em;
+    letter-spacing:1.5px;
+}
+#skills-container{
+    text-align: center;
+    margin:50px 0 0 0 ;
+    padding-right:50px;
+}
+#skills{
+    display:flex;
+    margin-left:300px; ;   
+}
